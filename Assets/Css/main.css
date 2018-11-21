@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Dancing+Script:400,700|Pacifico');
+
+.color-pallet{
+    background-color: #E8E8E8;
+    background-color: #EE9B51;
+    background-color: #484F52;
+    background-color: #656E71;
+    background-color: #8AACBC;
+    
+}
+
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+body{
+    margin:0;
+}
+
+.logo{
+    font-family: Pacifico;
+}
+
+.slogan{
+    font-family: Dancing Script;
+
+}
+
+.header{
+    font-family: Arbutus Slab;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    padding: 0 50px 0 150px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner-login{
+    position: relative;
+}
+
+.banner-login img{
+    height: 570px;
+    opacity: 0.4;
+}
+
+.menu-header{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+
+.master {
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main-home{
+    top: 200px;
+}
+
+.main-menu{
+    top: 130px;
+}
+
+li{
+    display: inline;
+}
+
+.main-back{
+    position: absolute;
+    background-color: white;
+    /* margin-top: -500px; */
+    top: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+.header-menu{
+    /* text-align: center; */
+}
+
+.city-header{
+    padding: 15px 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+    font-size: 35px;
+}
+
+.date-header{
+    padding: -10px 0 0 0 !important;
+    margin: 0 0 10px 0 !important;
+    font-size: 20px;
+}
+
+.menu-order{
+    font-family: Arbutus Slab;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.background-sub-menu{
+    border-radius: 10px;
+    background-color: #656E71;
+    opacity: 1;
+    color: #E8E8E8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 5px 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.form-title{
+    padding: 20px 0 5px 50px;
+}
+
+.form-button{
+    padding: 20px 0 5px 0px;
+}
+
+.sub-menu{
+    margin: 5px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+
+.cards{
+    background-color: grey;
+    padding: 20px 0 0 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+hr{
+    margin-right: 270px;
+}
+
+.cards p{
+    text-align: justify;
+    padding-right: 270px;
+}
+
+.card-menu{
+    max-width: none !important;
+}
+
+.card-body{
+    position: relative;
+    height: 200px;
+}
+
+.img-card{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 20px 15px 0;
+    width: 250px;
+    height: 250px;
+}
+
+.form{
+    padding: 0 50px 0 50px;
+}
+
+.form-button{
+    padding-right: 500px;
+    text-align: right;
+}
+
+.btn-home{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-header{
+    width: 120px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.form-date{
+    margin-left: -60px;
+}
+
+.feature{
+    border-radius: 10px;
+    height: 200px;
+    background: black;
+    margin: 10px 10px 10px 10px;
+    color: #484F52;
+}
+
+.cities{
+    margin-left: -90px !important;
+    flex-wrap: unset !important;
+    color: #484F52;
+}
+
+.item-citie{
+    height: 150px;
+    background: gray;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    background-image: url("../Img/cities.jpeg");
+    background-size: 400px 150px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5), 5px 6px 20px 0px rgba(0, 0, 0, 0.5);
+    color: #E8E8E8;
+}
+
+.citie1{
+    background-image: url("../Img/malang.jpg") !important;
+}
+
+.citie2{
+    background-image: url("../Img/surabaya.jpg") !important;
+}
+
+.citie3{
+    background-image: url("../Img/denpasar.jpg") !important;
+}
+
+.citie4{
+    background-image: url("../Img/semarang.jpg") !important;
+}
+
+.citie5{
+    background-image: url("../Img/jakarta.jpg") !important;
+}
+
+.citie6{
+    background-image: url("../Img/bandung.jpg") !important;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.main-footer{
+    position: absolute;
+    width: 100%;
+    padding: -500px 0px 0px 0px; 
+    height: 200px;
+    bottom: -200px;
+    background: #656E71;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: -20px !important;
+    margin-left: 50px;
+    text-align: left !important;
+    font-size: 25px;
+}
+
+.row-footer{
+    
+    padding: 20px 0 0 0 ;
+}
+
+.form-login{
+    padding-bottom: 50px;
+}
