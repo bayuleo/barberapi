@@ -11,7 +11,7 @@ api = Api(app)
 
 #sql Alchemy Conf
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456789@127.0.0.1/barber'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456789@barbers.cetzg8vhm6ub.us-east-2.rds.amazonaws.com/barbers'
 app.config['SQLALCHEMY_ECHO'] = True
 
 #SQL Migrate
